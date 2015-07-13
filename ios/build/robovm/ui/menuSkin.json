@@ -1,0 +1,46 @@
+{
+    "com.badlogic.gdx.graphics.Color": {
+        "white": { "r": 1, "g": 1, "b": 1, "a": 1 },
+        "black": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "gray":  { "r": 0.3, "g": 0.3, "b": 0.3, "a": 1 },
+        "red":   { "r": 1, "g": 0, "b": 0, "a": 1 },
+        "green": { "r": 0, "g": 1, "b": 0, "a": 1 },
+        "blue":  { "r": 0, "g": 0, "b": 1, "a": 1 }
+    },
+    "com.badlogic.gdx.graphics.g2d.BitmapFont": {
+        "white": { "file": "font/whitefont.fnt" },
+        "black": { "file": "font/blackfont.fnt" }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+        "default": { "font": white, "fontColor": white },
+        "black": { "font": black, "fontColor": black }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+        "default": { "up": "button_left_black_up", "down": "button_left_black_down" },
+        "right":   { "up": "button_right_black_up", "down": "button_right_black_down" },
+        "close": { "up": "button_close_up", "down": "button_close_down" },
+        "settings": { "up": "button_settings_up", "down": "button_settings_down" },
+        "privacy": { "up": "button_privacy_up", "down": "button_privacy_down" },
+        "sound": { "up": "button_sound_up", "down": "button_sound_down", "checked": "button_sound_down" },
+        "wrapper": { "up": "button_wrapper_up", "down": "button_wrapper_down" },
+        "addon": { "up": "button_addon_up", "down": "button_addon_down" }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+        "default": { "up": "button_up_black", "down": "button_down_black", "font": white, "pressedOffsetX": 2, "pressedOffsetY": -2, "fontColor": white,"downFontColor": black},
+        "gray": { "up": "button_up", "down": "button_down", "font": white, "pressedOffsetX": 2, "pressedOffsetY": -2, "fontColor": white,"downFontColor": black},
+        "blue": { "up": "button_up_blue", "down": "button_down_blue", "font": white, "pressedOffsetX": 2, "pressedOffsetY": -2, "fontColor": white,"downFontColor": black},
+        "black": { "up": "button_up_gray", "down": "button_down_gray", "font": white, "pressedOffsetX": 2, "pressedOffsetY": -2, "fontColor": white,"downFontColor": black},
+        "list": { "up": "list_button_up", "down": "list_button_down", "font": white, "pressedOffsetX": 2, "pressedOffsetY": -2, "fontColor": white,"downFontColor": black}
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle": {
+        "default": { "font": white, "fontColorUnselected": white, "fontColorSelected": black, "selection": "button_up" }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle": {
+        "default": { "hScrollKnob": "knob", "vScrollKnob": "knob" }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {
+        "default": { "titleFont": white, "background": "dialog_bg"},
+        "dialog": { "titleFont": white, "background": "dialog_bg", "stageBackground": "list_button_up"},
+        "dialog_dark": { "titleFont": white, "background": "dialog_bg2", "stageBackground": "list_button_up" }
+    }
+}

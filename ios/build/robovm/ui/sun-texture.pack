@@ -1,0 +1,37 @@
+
+sun-texture.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+sun1
+  rotate: false
+  xy: 0, 128
+  size: 129, 128
+  split: 0, 0, 0, 0
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+sun2
+  rotate: false
+  xy: 0, 0
+  size: 129, 128
+  split: 0, 0, 0, 0
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+sun3
+  rotate: false
+  xy: 129, 128
+  size: 129, 128
+  split: 0, 0, 0, 0
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+sun4
+  rotate: false
+  xy: 129, 0
+  size: 129, 128
+  split: 0, 0, 0, 0
+  orig: 129, 128
+  offset: 0, 0
+  index: -1

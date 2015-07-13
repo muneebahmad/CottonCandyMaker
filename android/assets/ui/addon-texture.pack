@@ -1,0 +1,77 @@
+
+addon-texture.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+toy2
+  rotate: false
+  xy: 0, 416
+  size: 106, 139
+  split: 0, 0, 0, 0
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+toy6
+  rotate: false
+  xy: 106, 440
+  size: 98, 115
+  split: 0, 0, 0, 0
+  orig: 98, 115
+  offset: 0, 0
+  index: -1
+toy3
+  rotate: false
+  xy: 0, 283
+  size: 100, 133
+  split: 0, 0, 0, 0
+  orig: 100, 133
+  offset: 0, 0
+  index: -1
+toy4
+  rotate: false
+  xy: 0, 155
+  size: 99, 128
+  split: 0, 0, 0, 0
+  orig: 99, 128
+  offset: 0, 0
+  index: -1
+toy5
+  rotate: false
+  xy: 0, 29
+  size: 95, 126
+  split: 0, 0, 0, 0
+  orig: 95, 126
+  offset: 0, 0
+  index: -1
+toy8
+  rotate: false
+  xy: 100, 306
+  size: 89, 110
+  split: 0, 0, 0, 0
+  orig: 89, 110
+  offset: 0, 0
+  index: -1
+toy1
+  rotate: false
+  xy: 100, 203
+  size: 91, 103
+  split: 0, 0, 0, 0
+  orig: 91, 103
+  offset: 0, 0
+  index: -1
+toy7
+  rotate: false
+  xy: 99, 104
+  size: 99, 99
+  split: 0, 0, 0, 0
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+toy9
+  rotate: false
+  xy: 95, 0
+  size: 88, 104
+  split: 0, 0, 0, 0
+  orig: 88, 104
+  offset: 0, 0
+  index: -1

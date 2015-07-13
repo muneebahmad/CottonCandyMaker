@@ -1,0 +1,277 @@
+
+texture.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wrapper1
+  rotate: false
+  xy: 0, 180
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper2
+  rotate: false
+  xy: 0, 0
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper3
+  rotate: false
+  xy: 145, 180
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper4
+  rotate: false
+  xy: 145, 0
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper5
+  rotate: false
+  xy: 290, 180
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper6
+  rotate: false
+  xy: 290, 0
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper7
+  rotate: false
+  xy: 435, 180
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper8
+  rotate: false
+  xy: 435, 0
+  size: 145, 180
+  split: 1, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+wrapper9
+  rotate: false
+  xy: 580, 180
+  size: 145, 180
+  split: 0, 0, 0, 0
+  orig: 145, 180
+  offset: 0, 0
+  index: -1
+stick1
+  rotate: false
+  xy: 725, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick2
+  rotate: false
+  xy: 736, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick3
+  rotate: false
+  xy: 747, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick4
+  rotate: false
+  xy: 758, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick5
+  rotate: false
+  xy: 769, 167
+  size: 11, 193
+  split: 1, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick6
+  rotate: false
+  xy: 780, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick7
+  rotate: false
+  xy: 791, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick8
+  rotate: false
+  xy: 802, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+stick9
+  rotate: false
+  xy: 813, 167
+  size: 11, 193
+  split: 0, 0, 0, 0
+  orig: 11, 193
+  offset: 0, 0
+  index: -1
+candy8
+  rotate: false
+  xy: 580, 100
+  size: 74, 80
+  split: 0, 0, 0, 0
+  orig: 74, 80
+  offset: 0, 0
+  index: -1
+candy3
+  rotate: false
+  xy: 654, 100
+  size: 71, 80
+  split: 0, 0, 0, 0
+  orig: 71, 80
+  offset: 0, 0
+  index: -1
+candy5
+  rotate: false
+  xy: 824, 280
+  size: 73, 80
+  split: 0, 0, 0, 0
+  orig: 73, 80
+  offset: 0, 0
+  index: -1
+candy2
+  rotate: false
+  xy: 580, 20
+  size: 72, 80
+  split: 0, 0, 0, 0
+  orig: 72, 80
+  offset: 0, 0
+  index: -1
+candy4
+  rotate: false
+  xy: 824, 200
+  size: 72, 80
+  split: 0, 0, 0, 0
+  orig: 72, 80
+  offset: 0, 0
+  index: -1
+candy7
+  rotate: false
+  xy: 652, 20
+  size: 71, 80
+  split: 0, 0, 0, 0
+  orig: 71, 80
+  offset: 0, 0
+  index: -1
+candy1
+  rotate: false
+  xy: 725, 87
+  size: 70, 80
+  split: 0, 1, 0, 0
+  orig: 70, 80
+  offset: 0, 0
+  index: -1
+candy6
+  rotate: false
+  xy: 723, 7
+  size: 69, 80
+  split: 0, 0, 0, 0
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+bottle1
+  rotate: false
+  xy: 795, 106
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle2
+  rotate: false
+  xy: 792, 26
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle3
+  rotate: false
+  xy: 830, 139
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle4
+  rotate: false
+  xy: 865, 139
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle5
+  rotate: false
+  xy: 830, 78
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle6
+  rotate: false
+  xy: 865, 78
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle7
+  rotate: false
+  xy: 827, 17
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+bottle8
+  rotate: false
+  xy: 862, 17
+  size: 35, 61
+  split: 0, 0, 0, 0
+  orig: 35, 61
+  offset: 0, 0
+  index: -1

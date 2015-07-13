@@ -1,0 +1,96 @@
+/**
+ * copyright (c)2013-2014 Algorithmi.
+ *
+ * @author muneebahmad (ahmadgallian@yahoo.com)
+ *
+ * The following source - code IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+ * KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+ * EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+ * OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+  * *
+ */
+package pk.muneebahmad.algotype.actions;
+
+import com.badlogic.gdx.scenes.scene2d.Action;
+import com.badlogic.gdx.utils.Pool;
+
+/**
+ *
+ * @author muneebahmad
+ */
+public class CallBackDelayAction extends Action {
+
+    static final Pool<CallBackDelayAction> pool = 
+            new Pool<CallBackDelayAction>(4, 100) {
+        @Override
+        protected CallBackDelayAction newObject() {
+            CallBackDelayAction action = new CallBackDelayAction();
+
+            action.setPool(this);
+
+            return action;
+        }
+    };
+
+    private int count;
+    private int current;
+    private float taken;
+    private float duration;
+    private ActionCallBack callBack;
+
+    /**
+     * Pooled constructor.
+     *
+     * @param count Call back N times.
+     * @param duration The duration between call-backs.
+     * @param callBack The call back object reference.
+     *
+     * @return The pooled object.
+     */
+    public static CallBackDelayAction $(int count, float duration, ActionCallBack callBack) {
+        CallBackDelayAction callBackDelay = pool.obtain();
+        callBackDelay.duration = duration;
+        callBackDelay.callBack = callBack;
+        callBackDelay.count = count;
+        callBackDelay.current = count;
+
+        return callBackDelay;
+    }
+
+    @Override
+    public void reset() {
+        super.reset();
+
+        taken = 0;
+    }
+
+    /**
+     * Execute action.
+     *
+     */
+    @Override
+    public boolean act(float delta) {
+        boolean done = false;
+
+        taken += delta;
+        if (taken > duration) {
+            if (count < 0 || current > 0) {
+                if (current > 0) {
+                    current--;
+                }
+
+                callBack.onCallBack();
+            } else {
+                done = true;
+            }
+
+            // Reset delay.
+            taken = 0;
+        }
+
+        return done;
+    }
+}/** end class. */

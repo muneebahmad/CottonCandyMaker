@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 23">
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="@android:style/Theme.Holo requires API level 11 (current min is 8)"
+        category="Correctness"
+        priority="6"
+        summary="Finds API accesses to APIs that are not supported in all targeted API versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on *all* versions targeted by this application (according to its minimum SDK attribute in the manifest).
+
+If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `AndroidManifest.xml` file.
+If your code is *deliberately* accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.
+
+If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v11` folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.
+
+Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="        android:theme=&quot;@android:style/Theme.Holo&quot; >"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/AndroidManifest.xml"
+            line="22"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background @drawable/logo_splash with a theme that also paints a background (inferred theme is @android:style/Theme.Holo)"
+        category="Performance"
+        priority="3"
+        summary="Looks for overdraw issues (where a view is painted only to be fully painted over)"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.
+
+NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.
+
+If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.
+
+Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead.
+"
+        errorLine1="    android:background=&quot;@drawable/logo_splash&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/res/layout/main.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UselessParent"
+        severity="Warning"
+        message="This LinearLayout layout or its LinearLayout parent is useless; transfer the background attribute to the other view"
+        category="Performance"
+        priority="2"
+        summary="Checks whether a parent layout can be removed."
+        explanation="A layout with children that has no siblings, is not a scrollview or a root layout, and does not have a background, can be removed and have its children moved directly into the parent for a flatter and more efficient layout hierarchy."
+        errorLine1="    &lt;LinearLayout "
+        errorLine2="    ^"
+        quickfix="adt">
+        <location
+            file="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/res/layout/main.xml"
+            line="9"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in drawable-hdpi: loading_splash.png, logo_splash.png"
+        category="Usability:Icons"
+        priority="4"
+        summary="Ensures that icons provide custom versions for all supported densities"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/res/drawable-hdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in drawable-mdpi: icon.png (found in drawable-hdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Ensures that icons provide custom versions for all supported densities"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/res/drawable-mdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in drawable-xhdpi: icon.png, loading_splash.png, logo_splash.png"
+        category="Usability:Icons"
+        priority="4"
+        summary="Ensures that icons provide custom versions for all supported densities"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/res/drawable-xhdpi"/>
+    </issue>
+
+</issues>

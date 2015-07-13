@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets" >
+            <file
+                name="data/aarow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/aarow.png" />
+            <file
+                name="data/almirah.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/almirah.png" />
+            <file
+                name="data/almirah_door.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/almirah_door.png" />
+            <file
+                name="data/cloud.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/cloud.png" />
+            <file
+                name="data/container.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/container.png" />
+            <file
+                name="data/container_stand.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/container_stand.png" />
+            <file
+                name="data/decoration_bg1.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/decoration_bg1.png" />
+            <file
+                name="data/decoration_bg2.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/decoration_bg2.png" />
+            <file
+                name="data/eating_mask.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/eating_mask.png" />
+            <file
+                name="data/end_bg.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/end_bg.png" />
+            <file
+                name="data/grid_bg.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/grid_bg.png" />
+            <file
+                name="data/logo.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/logo.png" />
+            <file
+                name="data/machine_filter.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/machine_filter.png" />
+            <file
+                name="data/machine_scene_bg.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/machine_scene_bg.png" />
+            <file
+                name="data/menu_bg_01.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/menu_bg_01.png" />
+            <file
+                name="data/menu_bg_02.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/menu_bg_02.png" />
+            <file
+                name="data/pour-particle.p"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/pour-particle.p" />
+            <file
+                name="data/pouring_bg.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/pouring_bg.png" />
+            <file
+                name="data/privacy_policy.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/privacy_policy.png" />
+            <file
+                name="data/select_sugar.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/select_sugar.png" />
+            <file
+                name="data/stick_scene_bg.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/stick_scene_bg.png" />
+            <file
+                name="data/stick_selection_logo.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/stick_selection_logo.png" />
+            <file
+                name="data/thunder.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/data/thunder.png" />
+            <file
+                name="font/black16.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/black16.fnt" />
+            <file
+                name="font/black16_0.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/black16_0.png" />
+            <file
+                name="font/black32.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/black32.fnt" />
+            <file
+                name="font/black32_0.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/black32_0.png" />
+            <file
+                name="font/black64.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/black64.fnt" />
+            <file
+                name="font/black64_0.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/black64_0.png" />
+            <file
+                name="font/blackfont.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/blackfont.fnt" />
+            <file
+                name="font/blackfont_0.tga"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/blackfont_0.tga" />
+            <file
+                name="font/white16.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/white16.fnt" />
+            <file
+                name="font/white16_0.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/white16_0.png" />
+            <file
+                name="font/white32.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/white32.fnt" />
+            <file
+                name="font/white32_0.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/white32_0.png" />
+            <file
+                name="font/white64.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/white64.fnt" />
+            <file
+                name="font/white64_0.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/white64_0.png" />
+            <file
+                name="font/whitefont.fnt"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/whitefont.fnt" />
+            <file
+                name="font/whitefont_0.tga"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/font/whitefont_0.tga" />
+            <file
+                name="particle/bottle1/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/bottle1/snow.png" />
+            <file
+                name="particle/bottle2/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/bottle2/snow.png" />
+            <file
+                name="particle/bottle3/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/bottle3/snow.png" />
+            <file
+                name="particle/bottle4/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/bottle4/snow.png" />
+            <file
+                name="particle/bottle5/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/bottle5/snow.png" />
+            <file
+                name="particle/bottle6/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/bottle6/snow.png" />
+            <file
+                name="particle/default/snow.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/particle/default/snow.png" />
+            <file
+                name="sounds/algo_rock_03.mp3"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/sounds/algo_rock_03.mp3" />
+            <file
+                name="sounds/button_49.wav"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/sounds/button_49.wav" />
+            <file
+                name="sounds/candy_mixing_scene.wav"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/sounds/candy_mixing_scene.wav" />
+            <file
+                name="sounds/eating_scene_sound.wav"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/sounds/eating_scene_sound.wav" />
+            <file
+                name="sounds/eating_sound_effect.wav"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/sounds/eating_sound_effect.wav" />
+            <file
+                name="sounds/magic-chime-01.wav"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/sounds/magic-chime-01.wav" />
+            <file
+                name="ui/addon-texture.pack"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/addon-texture.pack" />
+            <file
+                name="ui/addon-texture.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/addon-texture.png" />
+            <file
+                name="ui/machine_texture.pack"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/machine_texture.pack" />
+            <file
+                name="ui/machine_texture.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/machine_texture.png" />
+            <file
+                name="ui/menuSkin.json"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/menuSkin.json" />
+            <file
+                name="ui/sun-texture.pack"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/sun-texture.pack" />
+            <file
+                name="ui/sun-texture.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/sun-texture.png" />
+            <file
+                name="ui/texture.pack"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/texture.pack" />
+            <file
+                name="ui/texture.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/texture.png" />
+            <file
+                name="ui/uipack.pack"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/uipack.pack" />
+            <file
+                name="ui/uipack.png"
+                path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/assets/ui/uipack.png" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/muneebahmad/libgdx_gen_projects/CottonCandyMaker/android/src/debug/assets" />
+    </dataSet>
+
+</merger>
